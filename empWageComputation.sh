@@ -41,3 +41,4 @@ done
 
 totalSalary=$(($totalWorkHours*$EMP_RATE_PER_HR))
 echo "Daily Wage " ${empDailyWage[@]}
+echo "All keys" ${!empDailyWage[@]}
